@@ -1,0 +1,12 @@
+.idea
+/TestReport/AllureReport/*
+/TestReport/AllureResult/*
+/TestReport/Screenshot/*
+!/TestReport/AllureReport/readme.txt
+!/TestReport/AllureResult/readme.txt
+！/TestReport/Screenshot/readme.txt
+venv
+.pytest_cache/
+__pycache__
+trace.zip
+.DS_Store

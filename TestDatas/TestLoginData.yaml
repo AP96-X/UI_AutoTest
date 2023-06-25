@@ -1,0 +1,35 @@
+-
+  用例编号: Login_Error
+  模块: 用户
+  功能: 登录
+  优先级:  blocker
+  是否执行: Y
+  用例标题: 账号或错误登录失败
+  账号: "admin"
+  密码: "adminadmin"
+  url地址: /workbench/home
+  断言元素定位: //div[text()="用户名或密码错误"]
+
+-
+  用例编号: Login_Success
+  模块: 用户
+  功能: 登录
+  优先级:  blocker
+  是否执行: Y
+  用例标题: 登录成功
+  账号: "admin"
+  密码: "admin123"
+  url地址: /workbench/home
+  断言元素定位: //span[text()="平台设置"]
+
+-
+  用例编号: Login_Reset02
+  模块: 用户
+  功能: 登录
+  优先级:  blocker
+  是否执行: Y
+  用例标题: 登录界面重置按钮
+  账号: "admin"
+  密码: "admin123"
+  url地址: /workbench/home
+  断言元素定位:

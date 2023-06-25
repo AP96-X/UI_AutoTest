@@ -1,0 +1,33 @@
+- 用例编号: Standard_Create_Platform
+  模块: 数据标准
+  功能: 平台标准
+  优先级: blocker
+  是否执行: Y
+  用例标题: 新建平台标准
+  标准编码: "ui_auto_test"
+  标准名称: "UI自动化测试"
+  说明: "UI自动化测试"
+  url地址: /app:96/datastandard/standard/standard
+  断言元素定位: //span[text()="操作成功"]
+
+- 用例编号: Standard_Delete_Platform
+  模块: 数据标准
+  功能: 平台标准
+  优先级: blocker
+  是否执行: Y
+  用例标题: 删除平台标准
+  删除按钮: //td[@title="UI自动化测试"]/../td[8]/a[3]
+  url地址: /app:96/datastandard/standard/standard
+  断言元素定位: //span[text()="操作成功"]
+
+- 用例编号: Standard_import_excel
+  模块: 数据标准
+  功能: 平台标准
+  优先级: blocker
+  是否执行: Y
+  用例标题: 导入值域功能
+  详情按钮: //td[@title="采集标准"]/../td[8]/a[1]
+  下拉框值: 非覆盖导入
+  files: Standard/导入值域模板.xlsx
+  url地址: /app:96/datastandard/standard/standard
+  断言元素定位: //span[text()="操作成功"]

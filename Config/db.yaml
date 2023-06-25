@@ -1,0 +1,27 @@
+cowin_standard:
+  username: 'root'
+  password: 'das@123'
+  host: '192.168.5.37'
+  port: '3306'
+  db: 'cowin_standard'
+
+cowin_cloud:
+  username: 'root'
+  password: 'das@123'
+  host: '192.168.5.37'
+  port: '3306'
+  db: 'cowin_cloud'
+
+cowin_masterdata:
+  username: 'root'
+  password: 'das@123'
+  host: '192.168.5.37'
+  port: '3306'
+  db: 'cowin_masterdata'
+
+cowin_dataservice:
+  username: 'root'
+  password: 'das@123'
+  host: '192.168.5.37'
+  port: '3306'
+  db: 'cowin_dataservice'
